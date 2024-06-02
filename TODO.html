@@ -1,0 +1,108 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Work Mate
+  </title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+  <body id="body" onload="time()">
+  <div id="maindiv">
+  <div id="subdiv1">
+  <div id="div1">
+    <fieldset class="custom-fieldset" style="margin-top: 0px;">
+        <legend class="legend">TODO 1</legend>
+        <label class="from">from</label>
+        &nbsp;
+        <input type="time">
+        <label class="to">to</label>
+        &nbsp;
+        <input type="time">
+        <br>
+        <br>
+        <input type="text" id="t1" class="text" required placeholder="Which work are you want to do!"  oninput="content()" onchange="enable(id)">
+        <br>
+        <br>
+      <input type="radio" id="r1" value="Done" name="same1" class="done" disabled> Done   
+      <input type="radio" id="r11" value="nope" name="same1" class="nope" disabled> Nope
+  
+    </fieldset>
+    <fieldset class="custom-fieldset">
+      <legend class="legend">TODO 2</legend>
+      <label class="from">from</label>
+      &nbsp;
+      <input type="time">
+      <label class="to">to</label>
+      &nbsp;
+      <input type="time">
+      <br>
+      <br>
+      <input type="text" class="text" id="t2" required placeholder="Which work are you want to do!"  oninput="content()" onchange="enable(id)">
+      <br>
+      <br>
+      <input type="radio" id="r2" value="Done" name="same2" class="done" disabled> Done   
+      <input type="radio" id="r22" value="nope" name="same2" class="nope" disabled> Nope
+    </fieldset>
+
+    <fieldset class="custom-fieldset">
+      <legend class="legend">TODO 3</legend>
+      <label class="from">from</label>
+      &nbsp;
+      <input type="time">
+      <label class="to">to</label>
+      &nbsp;
+      <input type="time">
+      <br>
+      <br>
+      <input type="text" class="text" id="t3" required placeholder="Which work are you want to do!"   oninput="content()" onchange="enable(id)">
+      <br>
+      <br>
+      <input type="radio" id="r3" value="Done" name="same3" class="done" disabled> Done   
+      <input type="radio" id="r33" value="nope" name="same3" class="nope" disabled> Nope
+
+    </fieldset>
+    <fieldset class="custom-fieldset">
+      <legend class="legend">TODO 4</legend>
+      <label class="from">from</label>
+      &nbsp;
+      <input type="time">
+      <label class="to">to</label>
+      &nbsp;
+      <input type="time">
+      <br>
+      <br>
+      <input type="text" class="text" id="t4" required placeholder="Which work are you want to do!"  oninput="content()" onchange="enable(id)">
+      <br>
+      <br>
+      <input type="radio" id="r4" value="Done" name="same4" class="done" disabled>Done   
+      <input type="radio" id="r44" value="nope" name="same4" class="nope" disabled>Nope
+    </fieldset>
+  </div> <!-- DIV1-->
+    <button id="add" onclick="addFieldset()">Add</button>
+    <button id="submit" onclick="check()">Submit</button>
+  </div> <!-- SUBDIV1-->
+  <div id="subdiv2">
+    <div id="clock">
+      <h1 class="heading">Time is precious, Don't waste it.</h1>
+      <div class="rect">
+        <div class="circle">
+          <div class="innercircle">
+            <div class="center"> </div>
+            <div id="hr"> </div>
+            <div id="min"> </div>
+            <div id="sec"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
