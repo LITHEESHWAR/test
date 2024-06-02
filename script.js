@@ -189,7 +189,7 @@ function check(){
     //   b.style.backgroundImage='url("Untitled\ design.png")';
     //   div.style="background:linear-gradient(to right,#dbdbdb,#eaeaea);margin-top:270px;border-radius:30px;height:190px;border:1px solid black"
     //   b.appendChild(div);
-    // }
+    }
 }
 function content(){
     let s="t"+f;
