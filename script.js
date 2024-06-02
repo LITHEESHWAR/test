@@ -167,29 +167,29 @@ function check(){
   }
     if(flag){
       alert("See Your Work Progress");
-      let b=document.getElementById("body");
-      let div=document.createElement('div');
-      let h2=document.createElement('h1');
-      let h3=document.createElement('h1');
-      let br=document.createElement('br');
-      if(done>=nope){
-        h2.innerText="You have completed "+done+" works out of "+(done+nope) + " Awesome";
-        h3.innerText="You're an incredibly hard worker.... keep growing..."
-      }
-      else{
-        h2.innerText="You have completed "+done+" works out of "+(done+nope) + " good";
-        h3.innerText="The greater the effort, the greater the glory.... Work more..."
-      }
-      div.appendChild(br);
-      div.appendChild(h2);
-      div.appendChild(h3);
-      h2.style="color:black;font-weight:bold;text-align:center";
-      h3.style="color:black;font-weight:bold;font-size:50px;text-align:center";
-      //b.innerText="";
-      b.style.backgroundImage='url("Untitled\ design.png")';
-      div.style="background:linear-gradient(to right,#dbdbdb,#eaeaea);margin-top:270px;border-radius:30px;height:190px;border:1px solid black"
-      b.appendChild(div);
-    }
+    //   let b=document.getElementById("body");
+    //   let div=document.createElement('div');
+    //   let h2=document.createElement('h1');
+    //   let h3=document.createElement('h1');
+    //   let br=document.createElement('br');
+    //   if(done>=nope){
+    //     h2.innerText="You have completed "+done+" works out of "+(done+nope) + " Awesome";
+    //     h3.innerText="You're an incredibly hard worker.... keep growing..."
+    //   }
+    //   else{
+    //     h2.innerText="You have completed "+done+" works out of "+(done+nope) + " good";
+    //     h3.innerText="The greater the effort, the greater the glory.... Work more..."
+    //   }
+    //   div.appendChild(br);
+    //   div.appendChild(h2);
+    //   div.appendChild(h3);
+    //   h2.style="color:black;font-weight:bold;text-align:center";
+    //   h3.style="color:black;font-weight:bold;font-size:50px;text-align:center";
+    //   //b.innerText="";
+    //   b.style.backgroundImage='url("Untitled\ design.png")';
+    //   div.style="background:linear-gradient(to right,#dbdbdb,#eaeaea);margin-top:270px;border-radius:30px;height:190px;border:1px solid black"
+    //   b.appendChild(div);
+    // }
 }
 function content(){
     let s="t"+f;
